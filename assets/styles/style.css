@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar {
+    padding: 0;
+    
+    
+}
+
+.container-fluid {
+    background-color: rgb(8, 217, 214);
+    padding: .6rem;
+    min-height: 7vh;
+  
+
+}
+
+.navbar-brand {
+    width: 60%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.navbar-toggler{
+    background-color:  rgb(255, 46, 99);
+    color: white;
+}
+
+
+.nav-link {
+    border-radius: 7px;
+    background-color: rgb(255, 46, 99);
+    margin: .3rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#carouselExample {
+    background-color: rgb(37, 42, 52);
+    min-height: 10vh;
+}
+
+.carousel-item {
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.h2-carousel {
+    color: white;
+    padding: .7rem;
+    margin: .7rem;
+    
+}
+
+
+.d-flex {
+    min-height: 12vh;
+    background-color: rgb(169, 164, 164);
+    align-items: center;
+}
+
+main {
+    min-height: 100vh;
+    background-color: rgb(234, 234, 234);
+    padding: 2rem;
+}
+
+
+
+footer {
+    min-height: 10vh;
+    background-color: rgb(37, 42, 52);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+}
+
+.margin-form {
+    padding: 3px;
+}
+
+
+
+.caja-icons-footer {
+    width: 7rem;
+    margin: 1rem;
+
+}
+
+.botones-footers-icons {
+    text-decoration: none;
+    color:  rgb(8, 217, 214);
+    padding: 5px;
+}
+#clasecohort {
+    color:  rgb(8, 217, 214);
+}
+
+#clasecopyright {
+    color: rgb(255, 46, 99);
+}
+
+#link-mio {
+    color: white;
+    text-decoration: none;
+}
+
+.card {
+    height: 65vh;
+}
+
+.caja-precio-detalles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-body {
+    background-color:rgb(8, 217, 214) ;
+}
+
+.caja-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.form-textarea {
+    width: 22rem;
+}
+
+.caja-tabla {
+    display: flex;
+    justify-content: center;
+}
+
+.tabla {
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:5px;
+    background-color: rgb(8, 217, 214);
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+.tabla th {
+    border:1px solid #000000;
+    padding:3px;
+    background:rgb(255, 46, 99);
+}
+.tabla td {
+    border:1px solid #000000;
+    padding:1px;
+
+}
+
+
+
+
+
+/** seccion responsive **/
+
+
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+
+    footer {
+       display:flex;
+       flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:575px) {
+
+    footer {
+       display:flex;
+       flex-direction: column;
+
+    }
+
+    .caja-icons-footer {
+        width: 7rem;
+        margin: 1rem;
+    
+    }
+    
+    .botones-footers-icons {
+        text-decoration: none;
+        color:  rgb(8, 217, 214);
+        padding: 3px;
+    }
+}
